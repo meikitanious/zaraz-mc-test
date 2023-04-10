@@ -1,0 +1,17 @@
+{
+    "name": "Time - Case Study",
+    "description": "Meiki's Case Study Submission",
+    "namespace": "current-time-log",
+    "icon": "assets/icon.svg",
+    "allowCustomFields": true,
+    "permissions": {
+      "access_client_kv":{
+        "description": "Storing current time from server onto client",
+        "required": true
+      },
+      "execute_unsafe_scripts":{
+        "description": "Executing Console Log Script",
+        "required": true
+      }
+    }
+  }
